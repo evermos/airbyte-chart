@@ -27,8 +27,8 @@ data:
   RESOURCE_MEMORY_LIMIT: ""
   RESOURCE_MEMORY_REQUEST: ""
   RUN_DATABASE_MIGRATION_ON_STARTUP: "true"
-  S3_LOG_BUCKET: {{ Values.minio.s3LogBucket }}
-  S3_LOG_BUCKET_REGION: {{ Values.minio.s3LogBucketRegion }}
+  S3_LOG_BUCKET: {{ .Values.minio.s3LogBucket }}
+  S3_LOG_BUCKET_REGION: {{ .Values.minio.s3LogBucketRegion }}
   S3_MINIO_ENDPOINT: ""
   S3_PATH_STYLE_ACCESS: "true"
   SUBMITTER_NUM_THREADS: "10"
