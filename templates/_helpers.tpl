@@ -169,11 +169,12 @@ Add environment variables to configure minio
 {{- ternary "9000" .Values.externalMinio.port .Values.minio.enabled -}}
 {{- end -}}
 
-{{- define "airbyte.minio.endpoint" -}}
+
+{{/*- define "airbyte.minio.endpoint" -}}
 {{- $host := (include "airbyte.minio.host" .) -}}
 {{- $port := (include "airbyte.minio.port" .) -}}
 {{- printf "http://%s:%s" $host $port -}}
-{{- end -}}
+{{- end -*/}}
 
 {{/*
 Returns the Airbyte Scheduler Image
