@@ -25,6 +25,6 @@ appVersion: "0.32.0-alpha"
 
 dependencies:
 - name: common
-  repository: "file://charts/common"
+  repository: https://github.com/evermos/bitnami-common
 
 
