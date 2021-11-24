@@ -26,7 +26,5 @@ appVersion: "0.32.0-alpha"
 dependencies:
 - name: common
   repository: "file://charts/common"
-  tags:
-    - bitnami-common
-  version: 1.x.x
+
 
