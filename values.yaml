@@ -525,7 +525,7 @@ logs:
 
   ## @param logs.minio.enabled Switch to enable or disable the Minio helm chart
   minio:
-    enabled: true
+    enabled: false
 
   ## @param logs.externalMinio.enabled Switch to enable or disable an external Minio instance
   ## @param logs.externalMinio.host External Minio Host
